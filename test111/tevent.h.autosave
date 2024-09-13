@@ -1,0 +1,12 @@
+﻿#ifndef TEVENT_H
+#define TEVENT_H
+
+#include <QEvent>
+
+class TEvent :public QEvent
+{
+public:
+    explicit TEvent(EventT);
+};
+
+#endif // TEVENT_H
